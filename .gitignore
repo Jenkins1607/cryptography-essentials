@@ -1,0 +1,17 @@
+# (кэш компиляции)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальное окружение
+venv/
+ENV/
+env/
+
+# Настройки VS Code
+.vscode/
+.history/
+
+# Логи и системные файлы
+*.log
+.DS_Store
