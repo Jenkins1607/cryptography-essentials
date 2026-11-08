@@ -59,7 +59,7 @@ def getMinPrimitiveNumber(p: int, q: int) -> int:
     """
     start = time.time()
     SUP = 300
-
+    
     exp1 = 2
     exp2 = q
     for g in range(2, SUP):
@@ -101,3 +101,8 @@ def getAllPrimitiveNumbers(p: int, g: int, count: int = 100) -> set[int]:
 
     return primitives_set
 
+
+n = 137
+bit_mask = (1 << (8 - 1)) | 1
+
+print(n | bit_mask)
